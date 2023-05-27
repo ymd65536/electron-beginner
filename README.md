@@ -3,12 +3,16 @@
 ## npx upgrage
 
 ```sh
-yarn create react-app hello
+yarn create react-app react-beginner
 ```
 
+<https://github.com/ymd65536/react-beginner-typescript>
+
 ```sh
-yarn create react-app hello-typescript --template typescript
+yarn create react-app react-beginner-typescript --template typescript
 ```
+
+<https://github.com/ymd65536/react-beginner>
 
 ## Setup
 
