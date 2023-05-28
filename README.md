@@ -39,3 +39,19 @@ We suggest that you begin by typing:
 cd hello
 yarn start
 ```
+
+## トラブルシューティング
+
+```text
+App threw an error during load
+/Users/{アカウントID}/Desktop/react-beginner/src/App.js:1
+import logo from './logo.svg';
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+```
+
+React プロジェクトにElectron を導入しようとするとimportでエラーになる。
+書き換えが必要。
+
+ちなみにReactプロジェクトを保ったまま、Electron のプロジェクトも作成できる。
